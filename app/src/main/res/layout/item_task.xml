@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="5dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_timeLeft"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+
+        android:backgroundTint="@color/floatingItems"
+        app:layout_constraintBaseline_toBottomOf="@color/complete_tasks"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_timeLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                tools:text=" Dic 13" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_isCompleted"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/cv_timeLeft"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:backgroundTint="@color/complete_tasks" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cv_timeLeft">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_activityName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:text=" El nombre de la actividad" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Paleta de colores-->
+    <color name="background">#F5F3E7</color>
+    <color name="principal_buttons">#E07A5F</color>
+    <color name="text">#3D3A33</color>
+    <color name="secundary_acctions">#F2CC8F</color>
+    <color name="complete_tasks">#81B29A</color>
+    <color name="alerts">#D95D39</color>
+    <color name="aditional_details">#F6E8C3</color>
+    <color name="non_complete_tasks">#E76F51</color>
+    <color name="floatingItems">#EBBB57</color>
+    <color name="activityNameColor">#5F4723</color>
+
+
+    <!--    Paleta de colores 2 -->
+    <!--    <color name="background2">#FFF8E1</color>-->
+    <!--    <color name="principal_buttons2">#FF6F61</color>-->
+    <!--    <color name="text2">#3C3C3C</color>-->
+    <!--    <color name="secundary_actions">#FFD7B5</color>-->
+    <!--    <color name="complete_tasks2">#A8E6CF</color>-->
+    <!--    <color name="alerts2">#D9534F</color>-->
+    <!--    <color name="aditional_details2">#D9534F</color>-->
+    <!--    <color name="non_complete_tasks2">#E29578</color>-->
+
+
+</resources>

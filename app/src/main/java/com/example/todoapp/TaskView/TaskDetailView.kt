@@ -1,6 +1,5 @@
 package com.example.todoapp.TaskView
 
-import android.app.Dialog
 import android.os.Bundle
 import android.text.method.ScrollingMovementMethod
 import android.transition.Slide
@@ -8,14 +7,12 @@ import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.fragment.app.DialogFragment
-import androidx.appcompat.app.AlertDialog
 import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
 import com.example.todoapp.R
-import com.example.todoapp.menu.Task
+import com.example.todoapp.menu.domain_entity.Task
 
 /**
  * Representa a los animales del zoo

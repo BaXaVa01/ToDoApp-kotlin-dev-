@@ -7,13 +7,12 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import com.example.todoapp.DATA.TaskRepository
 import com.example.todoapp.R
 import com.example.todoapp.menu.DataModelViewUpdater
 import com.example.todoapp.menu.RecyclerViewUpdater
 
 
-import com.example.todoapp.menu.Task
+import com.example.todoapp.menu.domain_entity.Task
 import com.example.todoapp.menu.TaskProvider
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 

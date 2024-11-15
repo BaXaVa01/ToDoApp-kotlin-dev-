@@ -1,6 +1,7 @@
-package com.example.todoapp.DATA
+package com.example.todoapp.data
 
-import com.example.todoapp.menu.Task
+import com.example.todoapp.data.db_entities.TaskEntity
+import com.example.todoapp.menu.domain_entity.Task
 
 class TaskRepository(private val taskDao: DAO) {
 

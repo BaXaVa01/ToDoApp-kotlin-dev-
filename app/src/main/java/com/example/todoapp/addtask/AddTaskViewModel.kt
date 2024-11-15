@@ -1,15 +1,11 @@
 package com.example.todoapp.addtask
 
-import android.util.Log
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.liveData
 import androidx.lifecycle.viewModelScope
-import com.example.todoapp.DATA.TaskRepository
+import com.example.todoapp.data.TaskRepository
 import com.example.todoapp.menu.RecyclerViewUpdater
-import com.example.todoapp.menu.Task
+import com.example.todoapp.menu.domain_entity.Task
 import com.example.todoapp.menu.TaskProvider
-import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
 
 class AddTaskViewModel(private val taskRepository: TaskRepository, reloadRV: RecyclerViewUpdater) : ViewModel()  {

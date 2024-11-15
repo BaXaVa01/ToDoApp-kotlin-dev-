@@ -1,11 +1,10 @@
-package com.example.todoapp.DATA
+package com.example.todoapp.data
 
 import androidx.room.Dao
-import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.example.todoapp.menu.Task
+import com.example.todoapp.data.db_entities.TaskEntity
 
 @Dao
 interface DAO {

@@ -1,5 +1,7 @@
 package com.example.todoapp.menu
 
+import com.example.todoapp.menu.domain_entity.Task
+
 class TaskProvider {
     companion object {
         val taskList: MutableList<Task> = mutableListOf(

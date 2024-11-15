@@ -12,14 +12,14 @@ import android.os.Build
 import android.os.VibrationEffect
 import android.os.Vibrator
 import android.util.Log
-import androidx.lifecycle.ViewModel
 import androidx.room.Room
-import com.example.todoapp.DATA.TaskDb
-import com.example.todoapp.DATA.TaskRepository
+import com.example.todoapp.data.TaskDb
+import com.example.todoapp.data.TaskRepository
 import com.example.todoapp.R
 import com.example.todoapp.TaskView.TaskDetailView
 import com.example.todoapp.addtask.AddTaskBottomSheet
 import com.example.todoapp.addtask.AddTaskViewModel
+import com.example.todoapp.menu.domain_entity.Task
 
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton

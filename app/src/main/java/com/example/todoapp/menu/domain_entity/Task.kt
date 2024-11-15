@@ -1,4 +1,4 @@
-package com.example.todoapp.menu
+package com.example.todoapp.menu.domain_entity
 
 
 

@@ -1,9 +1,9 @@
-package com.example.todoapp.DATA
+package com.example.todoapp.data.db_entities
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity
+@Entity(tableName = "task")
 data class TaskEntity(
 
     @PrimaryKey(autoGenerate = true)

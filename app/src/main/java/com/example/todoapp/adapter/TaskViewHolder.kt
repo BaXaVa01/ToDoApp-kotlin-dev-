@@ -5,7 +5,7 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.example.todoapp.R
 import com.example.todoapp.databinding.ItemTaskPrimaryBinding
-import com.example.todoapp.menu.Task
+import com.example.todoapp.menu.domain_entity.Task
 
 
 class TaskViewHolder(view: View) : RecyclerView.ViewHolder(view) {
